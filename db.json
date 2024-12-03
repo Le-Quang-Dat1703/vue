@@ -1,0 +1,116 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Đạt",
+      "price": 33,
+      "category": "33",
+      "quantity": 2,
+      "description": "dđ",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.LZwo3IXK2fmvq3X_SjcLRgHaE8&pid=Api&P=0&h=180"
+    },
+    {
+      "id": "2",
+      "name": "Quần jean",
+      "price": 400000,
+      "description": "Quần jean phong cách",
+      "category": "Thời trang nữ",
+      "quantity": 50,
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.LZwo3IXK2fmvq3X_SjcLRgHaE8&pid=Api&P=0&h=180"
+    },
+    {
+      "id": "3",
+      "name": "Lê Quang Đạt",
+      "price": 33,
+      "category": "33",
+      "quantity": 2,
+      "description": "dđ",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.LZwo3IXK2fmvq3X_SjcLRgHaE8&pid=Api&P=0&h=180"
+    },
+    {
+      "id": "e8f8",
+      "name": "Nông sản việt nam",
+      "price": 8,
+      "category": "Nông sản",
+      "quantity": 3,
+      "description": "Sản phẩm lúa việt",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.LZwo3IXK2fmvq3X_SjcLRgHaE8&pid=Api&P=0&h=180"
+    }
+  ],
+  "customers": [
+    {
+      "id": "2",
+      "name": "Trần Thị A",
+      "email": "tranthib@example.com",
+      "phone": "0987654321",
+      "address": "Hồ Chí Minh"
+    },
+    {
+      "id": "7",
+      "name": "Lê Quang Đạt",
+      "email": "datlqpd10271@gmail.com",
+      "phone": "0942383582",
+      "address": "Hà Tĩnh"
+    },
+    {
+      "id": "3822",
+      "name": "Lê Quang Đạt",
+      "email": "datlqpd10271@gmail.com",
+      "phone": "0942383582",
+      "address": "eee"
+    },
+    {
+      "id": "5c5b",
+      "name": "Nguyễn Văn A",
+      "email": "nguyenvan@gmail.com",
+      "phone": "0942383582",
+      "address": "Đà Nẵng"
+    },
+    {
+      "id": "89da",
+      "name": "Nguyễn Văn c",
+      "email": "nguyenvan@gmail.com",
+      "phone": "0942383582",
+      "address": "Đà Nẵng"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "customerId": 7,
+      "productIds": [
+        1,
+        2
+      ],
+      "totalPrice": 600000,
+      "status": "Đã giao",
+      "orderDate": "2024-11-29"
+    },
+    {
+      "id": "2",
+      "customerId": 2,
+      "productIds": [
+        2
+      ],
+      "totalPrice": 400000,
+      "status": "Đã giao",
+      "orderDate": "2024-11-28"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "seller",
+      "email": "staff@example.com",
+      "password": "seller123",
+      "role": "seller"
+    }
+  ]
+}
